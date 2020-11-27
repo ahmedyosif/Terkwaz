@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="GUI(failed)">
+    <classes>
+      <class name="APITest">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- APITest -->
+      <class name="WebGUITests">
+        <methods>
+          <include name="TearDown"/>
+          <include name="GoogleTest"/>
+          <include name="OneTimeSetup"/>
+          <include name="UploadFileTest"/>
+          <include name="Screenshot"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- WebGUITests -->
+    </classes>
+  </test> <!-- GUI(failed) -->
+</suite> <!-- Failed suite [Suite] -->
